@@ -43,6 +43,14 @@ dependencies:
   google_fonts: ^4.0.3
   firebase_app_check: ^0.1.1+8
   shared_preferences:
+  camera: ^0.10.3+2
+  image_picker: ^0.8.6+4
+  get: ^4.6.5
+  path: ^1.8.2
+  path_provider: ^2.0.13
+  video_player: ^2.5.3
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
 
 
   

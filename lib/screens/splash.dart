@@ -22,7 +22,10 @@ class _SplashScreenState extends State<SplashScreen> {
       Timer(
           const Duration(seconds: 3),
           // ignore: unnecessary_null_comparison
-          () => Navigator.pushNamed(context, route));
+          () => Navigator.popAndPushNamed(
+                context,
+                route
+              ));
     });
   }
 
@@ -57,7 +60,7 @@ class _SplashScreenState extends State<SplashScreen> {
               height: 20,
             ),
             Text(
-              "Intership Assesment Application",
+              "Internship Assessment Application",
               style:
                   GoogleFonts.roboto(fontSize: 16, fontWeight: FontWeight.w500),
             ),

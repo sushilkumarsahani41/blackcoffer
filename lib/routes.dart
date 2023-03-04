@@ -2,6 +2,7 @@ import 'package:blackcoffer/screens/home.dart';
 import 'package:blackcoffer/screens/login.dart';
 import 'package:blackcoffer/screens/splash.dart';
 import 'package:blackcoffer/screens/verfiyotp.dart';
+import 'package:blackcoffer/screens/camera.dart';
 import 'package:flutter/material.dart';
 
 var myRoutes = <String, WidgetBuilder>{
@@ -9,4 +10,5 @@ var myRoutes = <String, WidgetBuilder>{
   '/home': (context) => const HomePage(),
   '/login': (context) => const LoginPage(),
   '/verifyotp': (context) => const VerifyOTP(),
+  '/camera': (context) => const CameraScreen(),
 };
