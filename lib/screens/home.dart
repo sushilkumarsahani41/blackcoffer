@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                         IconButton(
                           onPressed: () {},
                           icon: const Icon(
-                            Icons.photo_album,
+                            Icons.photo,
                             semanticLabel: 'Gallery',
                             size: 35,
                             color: Colors.blue,

@@ -51,6 +51,7 @@ dependencies:
   video_player: ^2.5.3
   geolocator: ^9.0.2
   geocoding: ^2.0.5
+  firebase_storage: ^11.0.14
 
 
   
